@@ -1,0 +1,32 @@
+# Logs
+*.log
+
+# Dependencies / build output
+node_modules/
+vendor/
+.next/
+dist/
+build/
+public/build
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Databases
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Tooling caches
+.phpunit.result.cache
+.tsbuildinfo
+*.tsbuildinfo
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
